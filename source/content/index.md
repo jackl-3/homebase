@@ -1,13 +1,8 @@
 ---
-title: My GitHub Pages Notebook!
+title: The Homebase
 ---
+Welcome to my website.
 
-Hello world!
+Here be my place of write-ups and posts for personal projects and any other musings I might have that would fit here.
 
-Write some words here!
-
-Words have been written
-
-Written have words been
-
-:-)
+Enjoy. 😎
