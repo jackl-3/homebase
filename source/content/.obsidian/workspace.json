@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misc/index.md",
+                "file": "Misc/Note3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Note3"
             }
           }
         ]
@@ -182,11 +182,12 @@
   },
   "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "firefox_qg0DLIbdGa.png",
+    "Misc/index.md",
     "Misc/Note3.md",
     "2 - Projects/Note1.md",
     "1. Write-Ups/Note2.md",
     "index.md",
-    "Misc/index.md",
     "2 - Projects",
     "1. Write-Ups",
     "Misc"
