@@ -35,8 +35,7 @@
               "title": "Some note"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -195,10 +194,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2d8837e6263008e3",
+  "active": "47ef711f7e8c1d64",
   "lastOpenFiles": [
-    "index.md",
     "category-folder/Some note.md",
+    "index.md",
     "category-folder/index.md",
     "category-folder"
   ]

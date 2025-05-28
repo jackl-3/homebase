@@ -10,4 +10,4 @@ Words have been written
 
 Written have words been
 
-:-D
+:-)
