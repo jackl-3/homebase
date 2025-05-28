@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "category-folder/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -194,11 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "47ef711f7e8c1d64",
+  "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
+    "Projects",
+    "Write-Ups",
     "category-folder/Some note.md",
-    "category-folder/index.md",
     "index.md",
+    "category-folder/index.md",
     "category-folder"
   ]
 }

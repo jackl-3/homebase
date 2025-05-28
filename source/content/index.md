@@ -1,8 +1,8 @@
 ---
-title: The Homebase
+title: Hello
 ---
 Welcome to my website.
 
-Here be my place of write-ups and posts for personal projects and any other musings I might have that would fit here.
+Here be my place of write-ups and posts of personal projects as well as any other musings that would fit here.
 
 Enjoy. 😎
