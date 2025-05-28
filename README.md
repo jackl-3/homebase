@@ -1,1 +1,1 @@
-My personal website utilizing Obisidian to publish pages and hosting on Github pages. Forked from the project made by [Defender](https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1).
+My personal website utilizing Obisidian to publish pages hosted on Github pages website. Forked from the project made by [Defender](https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1).
