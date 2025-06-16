@@ -1,8 +1,8 @@
 ---
-title: Hello
+title: Hello 👋
 ---
-Welcome to my website.
+welcome.
 
-Here be my place of write-ups and posts of personal projects as well as any other musings that would fit here.
+here lies a place where I keep my write-ups and posts of personal projects as well as any other musings that would fit here.
 
-Enjoy. 😎
+enjoy. 😎
