@@ -11,14 +11,12 @@
             "id": "47ef711f7e8c1d64",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Misc/Note3.md",
-                "mode": "source",
-                "source": false
+                "file": "Misc/firefox_qg0DLIbdGa.png"
               },
-              "icon": "lucide-file",
-              "title": "Note3"
+              "icon": "lucide-image",
+              "title": "firefox_qg0DLIbdGa"
             }
           }
         ]
@@ -182,11 +180,11 @@
   },
   "active": "b77831b90dd9f87b",
   "lastOpenFiles": [
-    "firefox_qg0DLIbdGa.png",
-    "Misc/index.md",
+    "1. Write-Ups/tshark - the basics.md",
     "Misc/Note3.md",
+    "Misc/firefox_qg0DLIbdGa.png",
+    "Misc/index.md",
     "2 - Projects/Note1.md",
-    "1. Write-Ups/Note2.md",
     "index.md",
     "2 - Projects",
     "1. Write-Ups",
