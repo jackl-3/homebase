@@ -18,7 +18,7 @@ Pretty neat.
 
 The first series of questions is pretty simple: navigate to the folder with the files the room will be using for this room and paste the "RIPEMD160" value from `demo.pcapng`:
 
-After we move into the correct folder with`cd /Desktop/exercise-files`, we can then run `capinfos demo.pcapng` to give us the following info:
+After we move into the correct folder with`cd Desktop/exercise-files`, we can then run `capinfos demo.pcapng` to give us the following info:
 
 ![[task1q2.png]]
 
