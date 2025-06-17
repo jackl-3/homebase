@@ -189,7 +189,7 @@ Next question needs to know the total number of packets that have the IP address
 
 ![[task8q3.png]]
 
-Just like with the first question of this module, the incrementing column of numbers on the left in the results tell us how packets have IP address `145.254.160.237` which is to say that there are 20 packets with that IP as the source address.
+Just like with the first question of this module, the incrementing column of numbers on the left in the results tell us how many packets have the IP address `145.254.160.237`. This means that there are 20 packets with that IP as the source address. 
 
 However, our last question needs us to locate the amount of packets contain a "Duplicate" packet. Thankfully, it's pretty simple: packet 17 has 37 packets that contain the  "Duplicate" packet. This much is evident by region where the TCP flag(s) are reported in packet 17: `[TCP Dup ACK 28#1]`.
 
