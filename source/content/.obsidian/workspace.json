@@ -8,49 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47ef711f7e8c1d64",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(thm) tshark - the basics"
-            }
-          },
-          {
             "id": "79c60d3327829483",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/(thm) tshark - cli wireshark features.md",
+                "file": "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/(thm) tshark challenge 1 - teamwork.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(thm) tshark - cli wireshark features"
-            }
-          },
-          {
-            "id": "88ef2e10f8453adc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/(thm) tshark - cli wireshark features.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(thm) tshark - cli wireshark features"
+              "title": "(thm) tshark challenge 1 - teamwork"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -209,22 +180,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88ef2e10f8453adc",
+  "active": "79c60d3327829483",
   "lastOpenFiles": [
-    "1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
+    "5.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.1.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.3.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.3.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.1.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/2.png",
     "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/(thm) tshark - cli wireshark features.md",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/(thm) tshark challenge 1 - teamwork.md",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/a.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/1.png",
+    "1. Write-Ups/tryhackme/challenges",
+    "1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
     "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task6q5.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task6q4.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task6q3.png",
-    "task6q1&2.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task6q1&2.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task5q2.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task5q1.png",
-    "1. Write-Ups/tryhackme/tshark/tshark challenge 1 - teamwork/(thm) tshark challenge 1 - teamwork.md",
-    "1. Write-Ups/tryhackme/tshark/tshark challenge 1 - teamwork",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task4q4.4.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task4q4.3.png",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task4q4.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork",
     "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features",
     "1. Write-Ups/tryhackme/tshark/1 - the basics",
     "2025-06-16.md",
