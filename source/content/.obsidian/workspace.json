@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/(thm) tshark challenge 1 - teamwork.md",
+                "file": "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/(thm) tshark challenge 2 - directories.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(thm) tshark challenge 1 - teamwork"
+              "title": "(thm) tshark challenge 2 - directories"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 341.5
   },
   "right": {
     "id": "ba1ec06a672fb227",
@@ -182,22 +182,24 @@
   },
   "active": "79c60d3327829483",
   "lastOpenFiles": [
-    "5.2.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.1.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.3.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/5.2.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.3.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.2.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/4.1.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/10.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/9.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/9.1.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/8.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/7.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/7.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/7.1.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/(thm) tshark challenge 2 - directories.md",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/6.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/(thm) tshark challenge 1 - teamwork.md",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/a.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/5.1.png",
     "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/(thm) tshark - cli wireshark features.md",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/(thm) tshark challenge 1 - teamwork.md",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/a.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork/1.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/4.2.png",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up",
     "1. Write-Ups/tryhackme/challenges",
     "1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task6q5.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 - teamwork",
+    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up",
     "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features",
     "1. Write-Ups/tryhackme/tshark/1 - the basics",
     "2025-06-16.md",
