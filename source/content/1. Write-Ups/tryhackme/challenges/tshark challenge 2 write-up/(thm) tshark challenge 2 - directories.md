@@ -17,11 +17,11 @@ spooky
 
 use command to find ip addresses captured
 
-![[3.1.png]]
+![[1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/3.1.png]]
 
 try the first IP `141.164.41.174` is the first shown IP and appears to be sending HTTP traffic. checking the related domains on VirusTotal (page search)
 
-![[3.2.png]]
+![[1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/3.2.png]]
 
 looks like this IP is associated with the bad domain
 
@@ -41,19 +41,19 @@ follow tcp stream 0 to find first file
 
 we need to view the html body. there are three files: `vlauto.exe, 123.php, vlauto.php`
 
-![[6.png]]
+![[1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/6.png]]
 
 first two probably entries are actually images but 3rd one is an actual file `123.php`
 
 export http traffic objects to desktop
 
-![[7.1.png]]
+![[1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/7.1.png]]
 
 objects were extracted
 
 look into folder to find executable
 
-![[7.2.png]]
+![[1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/7.2.png]]
 
 we found it `vlauto[.]exe`
 

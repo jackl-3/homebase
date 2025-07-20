@@ -1,56 +1,41 @@
 {
   "main": {
-    "id": "2e9225e34664efd4",
+    "id": "efba966bade638ad",
     "type": "split",
     "children": [
       {
-        "id": "0571c1c94d829fac",
+        "id": "d5d2fca7c475f65b",
         "type": "tabs",
         "children": [
           {
-            "id": "2ef223261661b7a0",
+            "id": "67a1354ce32a0da5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/(thm) tshark challenge 2 - directories.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "(thm) tshark challenge 2 - directories"
-            }
-          },
-          {
-            "id": "79c60d3327829483",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
-                "mode": "source",
+                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "(thm) friday overtime challenge room"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "1243752a4df710bb",
+    "id": "3728c0dfb30d1743",
     "type": "split",
     "children": [
       {
-        "id": "8a4c81639dc8783e",
+        "id": "86f40294fb15ae66",
         "type": "tabs",
         "children": [
           {
-            "id": "b77831b90dd9f87b",
+            "id": "01f4808296f873ad",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "0829eb50dbb8a2b3",
+            "id": "d94f3e390e4641f8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "436d75c49c949463",
+            "id": "84aa183d4df4578e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -93,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 300
   },
   "right": {
-    "id": "ba1ec06a672fb227",
+    "id": "6a25426ee6abc9a8",
     "type": "split",
     "children": [
       {
-        "id": "6cea78168fbf9ccd",
+        "id": "66a73c30baeca040",
         "type": "tabs",
         "children": [
           {
-            "id": "2aa5a4c073617928",
+            "id": "f00b9cab2a855caf",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for (thm) friday overtime challenge room"
             }
           },
           {
-            "id": "5acb7020384970a8",
+            "id": "57a3070b5bbe74b3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from (thm) friday overtime challenge room"
             }
           },
           {
-            "id": "f850ba7e9e699bea",
+            "id": "4f722d7279bf41f2",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,22 +137,22 @@
             }
           },
           {
-            "id": "2d9129bb8dcf7983",
+            "id": "08265453b4ce81bd",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md",
+                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of (thm) friday overtime challenge room"
             }
           },
           {
-            "id": "1265205b1415dda5",
+            "id": "3101c9c123b8e464",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -195,37 +180,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "79c60d3327829483",
-  "lastOpenFiles": [
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/(thm) tshark challenge 2 - directories.md",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/7.1.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/7.2.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/6.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/5.2.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/5.1.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/4.2.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/4.1.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/3.5.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/3.4.png",
-    "1. Write-Ups/tryhackme/challenges/friday overtime/3.3.png",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/(thm) tshark challenge 1 - teamwork.md",
-    "1. Write-Ups/tryhackme/challenges/friday overtime",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/(thm) tshark - cli wireshark features.md",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up",
-    "1. Write-Ups/tryhackme/challenges",
-    "1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
-    "1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up",
-    "1. Write-Ups/tryhackme/tshark/2 - cli wireshark features",
-    "1. Write-Ups/tryhackme/tshark/1 - the basics",
-    "2025-06-16.md",
-    "1. Write-Ups/tryhackme",
-    "index.md",
-    "Misc/index.md",
-    "2 - Projects/Note1.md",
-    "Misc/Note3.md",
-    "1. Write-Ups/tryhackme/tshark",
-    "2 - Projects",
-    "1. Write-Ups"
-  ]
+  "active": "67a1354ce32a0da5",
+  "lastOpenFiles": []
 }
