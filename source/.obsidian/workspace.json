@@ -157,8 +157,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
@@ -181,5 +181,8 @@
     }
   },
   "active": "67a1354ce32a0da5",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "content/2 - Projects/Note1.md",
+    "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md"
+  ]
 }
