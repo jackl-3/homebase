@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "efba966bade638ad",
+    "id": "38e798d88f51fa6d",
     "type": "split",
     "children": [
       {
-        "id": "d5d2fca7c475f65b",
+        "id": "ab74dbf08b6d7706",
         "type": "tabs",
         "children": [
           {
-            "id": "67a1354ce32a0da5",
+            "id": "08d82d11fcc354f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
                 "mode": "source",
                 "source": false
               },
@@ -27,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "3728c0dfb30d1743",
+    "id": "2164c042d09c33e2",
     "type": "split",
     "children": [
       {
-        "id": "86f40294fb15ae66",
+        "id": "5c044d3651f65e2b",
         "type": "tabs",
         "children": [
           {
-            "id": "01f4808296f873ad",
+            "id": "44953d8852a3da07",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +48,7 @@
             }
           },
           {
-            "id": "d94f3e390e4641f8",
+            "id": "9a5760db5e06ab20",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +65,7 @@
             }
           },
           {
-            "id": "84aa183d4df4578e",
+            "id": "c510b2c123ae5e6e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -81,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "6a25426ee6abc9a8",
+    "id": "46c7900b7d611674",
     "type": "split",
     "children": [
       {
-        "id": "66a73c30baeca040",
+        "id": "f428d3639b210227",
         "type": "tabs",
         "children": [
           {
-            "id": "f00b9cab2a855caf",
+            "id": "4332b77f6b22fe10",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for (thm) friday overtime challenge room"
+              "title": "Backlinks for (thm) evil-gpt challenge room"
             }
           },
           {
-            "id": "57a3070b5bbe74b3",
+            "id": "1414b80733526c6b",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from (thm) friday overtime challenge room"
+              "title": "Outgoing links from (thm) evil-gpt challenge room"
             }
           },
           {
-            "id": "4f722d7279bf41f2",
+            "id": "9961c34025f2a89c",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,32 +137,21 @@
             }
           },
           {
-            "id": "08265453b4ce81bd",
+            "id": "6f3aaa8269d7665a",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (thm) friday overtime challenge room"
-            }
-          },
-          {
-            "id": "3101c9c123b8e464",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Outline of (thm) evil-gpt challenge room"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,15 +169,6 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "67a1354ce32a0da5",
-  "lastOpenFiles": [
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt/4.png",
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt/3.png",
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png",
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png",
-    "content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
-    "content/1. Write-Ups/tryhackme/challenges/evil-gpt",
-    "content/2 - Projects/Note1.md"
-  ]
+  "active": "08d82d11fcc354f9",
+  "lastOpenFiles": []
 }
