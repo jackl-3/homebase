@@ -1,4 +1,4 @@
-%%  %%
+
 login using creds (they were already saved in the browser on the attackbox)
 
 we can immediately see the name of the person who sent us the files to view

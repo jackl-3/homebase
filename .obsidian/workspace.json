@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for (thm) evil-gpt challenge room"
+              "title": "Backlinks for (thm) friday overtime challenge room"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from (thm) evil-gpt challenge room"
+              "title": "Outgoing links from (thm) friday overtime challenge room"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of (thm) evil-gpt challenge room"
+              "title": "Outline of (thm) friday overtime challenge room"
             }
           }
         ]
@@ -170,5 +170,8 @@
     }
   },
   "active": "08d82d11fcc354f9",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md"
+  ]
 }

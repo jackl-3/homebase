@@ -9,7 +9,7 @@ Once connected, I'm given a brief welcome message and then asked to give a comma
 
 Haha we got admin access (sudo su = operating as root)! But, first, let's make sure that we *are* actually root:
 
-![[content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
+![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
 
 Nice. We are root.
 
