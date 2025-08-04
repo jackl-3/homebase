@@ -5,7 +5,7 @@ When the AttackBox has launched and loaded the desktop for us (and after we've g
 
 Once connected, I'm given a brief welcome message and then asked to give a command request. Since I'm tasked with investigating and/or shutting down the AI, I wanted to try to see if we can get admin access right off the bat:
 
-
+![[3.png]]
 
 Haha we got admin access (sudo su = operating as root)! But, first, let's make sure that we *are* actually root:
 
