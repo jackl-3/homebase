@@ -5,11 +5,11 @@ When the AttackBox has launched and loaded the desktop for us (and after we've g
 
 Once connected, I'm given a brief welcome message and then asked to give a command request. Since I'm tasked with investigating and/or shutting down the AI, I wanted to try to see if we can get admin access right off the bat:
 
-![[content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png]]
+![[1.png]]
 
 Haha we got admin access (sudo su = operating as root)! But, first, let's make sure that we *are* actually root:
 
-![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
+![[2.png]]
 
 Nice. We are root.
 
