@@ -169,8 +169,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "08d82d11fcc354f9",
+  "active": "44953d8852a3da07",
   "lastOpenFiles": [
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_aiassistantscreen.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flagrules.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flaganswer.png",
     "source/content/1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/(thm) tshark challenge 1 - teamwork.md",
     "source/content/5.2.png",
     "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task4q4.4.png",
@@ -179,12 +183,8 @@
     "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q1&2.png",
     "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q3.png",
     "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q4.png",
-    "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q5.png",
-    "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task4q4.3.png",
-    "source/content/1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task4q4.2.png",
     "source/content/1. Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
     "source/content/1. Write-Ups/tryhackme/challenges/tshark challenge 2 write-up/(thm) tshark challenge 2 - directories.md",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2",
     "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
