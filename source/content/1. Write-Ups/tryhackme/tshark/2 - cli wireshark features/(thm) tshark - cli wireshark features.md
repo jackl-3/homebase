@@ -149,29 +149,29 @@ Now that we know this, our first task is to determine what the byte value of the
 
 Before we can begin, we need to first navigate to where the files for this room's exercise are stored. The room states that all the files are contained in the `exercise-files` folder located on the desktop. Thus, we need to have our terminal navigate to said folder with `"cd Desktop/exercise-files"`. After that, let's use `ls` to see what's in the folder:
 
-![[task1.png]]
+![[tsharkfeatures_task1.png]]
 
 We've got a few files to work with, it seems. Now that we know we have the `write-demo.pcapng` file, let's write out command. We'll want to use the `phs` parameter to show us a nice breakdown of each protocol and their associated byte value:
 
-![[1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task2q1.png]]
+![[tsharkfeatures_task2q1.png]]
 
 From this file, the recorded byte value of TCP is 62 bytes. Pretty easy.
 
 Our next question asks to now locate this packet in packet lengths row. We know from earlier that a lengths row is associated with showing a tree view of statistics for captured packets. This means that we'll need to combine `tree` and `plen` to have TShark show us rows of packet lengths:
 
-![[1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task2q2.png]]
+![[tsharkfeatures_task2q2.png]]
 
 Okay, from the resulting rows, we see that packet lengths 40-79 contain our packet in question. This is evident by a) the "count" field for that packet length reports only 1 packet and b) the average, min, and max value of that category is 62.00.
 
 We need to next view the expert info and report the summary of the TCP packet that was captured:
 
-![[task2q3.png]]
+![[tsharkfeatures_task2q3.png]]
 
 Summary of the TCP packet is `Connection establish request (SYN): server port 80`. 👍
 
 For the final question of this module, we need to pivot to the `demo.pcapng` file and report on which IP address is shown in all endpoint conversations. This means we'll use `-z conv,ip -q` to show us the communications between the different IP addresses in the file:
 
-![[task2q4.png]]
+![[tsharkfeatures_task2q4.png]]
 
 There aren't a lot of addresses but, from what we can see, the recurring address in each conversation is `145.254.160.237`.
 
@@ -288,14 +288,14 @@ With this new information, we need pivot back to the `demo.pcapng` file and 1) l
 
 To locate the address that shows up 7 times, our command needs to be `tshark -r demo.pcapng -z ip_hosts,tree -q`. With this, we are instructing TShark to read the `demo.pcapng` files and show us the IPv4 hosts contained within:
 
-![[1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task3q1.png]]
+![[tsharkfeatures_task3q1.png]]
 
 
 Ok, cool. As shown in the column denoted as "Count", the address `216.239.59.99` is recorded 7 times. Which means that our answer, defanged, is `216[.]239[.]59[.]99`.
 
 Now, for the following question, how would we use filters to find out the percentage of destination addresses the previous address is? Earlier we were shown that we can filter packets by the source destination address by using `ip_srcdst,tree` in our command to TShark:
 
-![[1. Write-Ups/tryhackme/tshark/2 - cli wireshark features/task3q2.png]]
+![[tsharkfeatures_task3q2.png]]
 
 
 Thus, we can see from the results here that the address `216.239.59.99` constitutes 6.98% of the amount of destination addresses in the file.
@@ -304,7 +304,7 @@ But what about 2.33%? Well, looking again to the output, it can be seen that `14
 
 For the final question of the 3rd module, we need to locate the average "Qname Length" value.  As the `dns,tree` parameter was shown to report query stats, we'll try `tshark -r demo.pcapng -z dns,tree -q`:
 
-![[task3q4.png]]
+![[tsharkfeatures_task3q4.png]]
 
 
 It's located at the bottom but the report tells us the topic "Qname Len" (or Qname Length) has an average value of 29.00.
@@ -401,24 +401,24 @@ Ok, time for work. Our first task here is to use `demo.pcapng` to follow "UDP st
 
 To locate this value, we'll need structure our command as `tshark -r demo.pcapng -z follow,udp,ascii,0 -q`:
 
-![[task4q1.png]]
+![[tsharkfeatures_task4q1.png]]
 
 Node 0 is `145.254.160.237:3009` or, defanged, `145[.]254[.]160[.]237:3009`. Cool.
 
 Now we need to do the same thing again except we need follow "HTTP stream 1" to find the "Referer" value:
 
-![[task4q2.png]]
+![[tsharkfeatures_task4q2.png]]
 
 Here, we set the query to specify an http stream with `follow,http,ascii` and start following the stream at position `1`. Since web addresses also need to recorded in a defanged format, our answer for this question is `hxxp[://]www[.]ethereal[.]com/download[.]html`.
 
 So, for credentials: we are asked to determine the total number of credentials that were captured. Now, we could try just using `-z credentials -q`:
 
-![[task4q4.1.png]]![[task4q4.2.png]]
+![[tsharkfeatures_task4q4.1.png]]![[tsharkfeatures_task4q4.2.png]]
 
 ..and count *every* line that appears here to tally the total amount of creds. BUT, as we were taught earlier, there is something we can use to make this much easier: `| nl`
 
-![[task4q4.3.png]]
-![[task4q4.4.png]]
+![[tsharkfeatures_task4q4.3.png]]
+![[tsharkfeatures_task4q4.4.png]]
 
 It's not perfect, but we can see incrementing numbers for each line! 
 
@@ -501,7 +501,7 @@ With the `demo.pcapng` file, what HTTP packet contains the word "CAFE"?
 
 Since we're looking for an HTTP packet, and are told to report the number of it, we'll need to write out our command to include the use of the "contains" operator that were shown before:
 
-![[task5q1.png]]
+![[tsharkfeatures_task5q1.png]]
 
 From this line, we told TShark to filter out HTTP packets that have the keyword "CAFE" in the server field. This reported that packet # 27, as shown, contains "CAFE".
 
@@ -511,7 +511,7 @@ Similar to the previous question, we next need to filter packets that have "GET"
 
 This will instruct TShark to filter packers with fields that match with GET and POST requests and then report the time of the frame (`frame.time`) as a field in the results:
 
-![[task5q2.png]]
+![[tsharkfeatures_task5q2.png]]
 
 Thus, the answer to our question is `May 13, 2004 10:17:08.222534000 UTC` is the first time value that we found.
 
@@ -570,7 +570,7 @@ Time to try it out ourselves. Using the `hostnames.pcapng` that we have located 
 
 For this one, we need to not only tell TShark to grab the hostnames but we need to tell it to omit recurring hostnames and only report the amount of hostnames *unique* to themselves:
 
-![[task6q1&2.png]]
+![[tsharkfeatures_task6q1&2.png]]
 
 In the b first half before the first break (`|`), we're having TShark read the `hostnames.pcapng` file and report only the DHCP hostnames from the filtered packets. Then, after that initial break, we're instructing it to a) remove blank lines, b) sort recursively, c) show only unique values and show the number of occurrences of each, d) sort recursively again (sorting the unique results), and e) provide a numbered list with the results. TShark having processed our command, we see that there 30 unique hostnames in `hostnames.pcapng`.
 
@@ -578,19 +578,19 @@ We can also use this output to solve the amount of times the hostname "prus-pc" 
 
 We need now to move over to `dns-queries.pcap`. Again, the process for arriving at the answer for this question is somewhat similar to that of the previous: we need to have TShark filter and report data from the field `dns.query.name` and then sort the info much like we sorted the hostnames.
 
-![[task6q3.png]]
+![[tsharkfeatures_task6q3.png]]
 
 What is the number of the most common DNS query? Simple: number 1, `db.rhodes.edu`, is the most common DNS query captured with 472 appearances.
 
 From the `user-agents.pcap`, we are told to find the number of "Wfuzz user agents". Since we are looking for HTTP user agents, we'll need something like this:
 
-![[task6q4.png]]
+![[tsharkfeatures_task6q4.png]]
 
 Before we can answer, we see that entries 1 and 6 BOTH contain Wfuzz user agents. As we need to report the *total* amount of these agents, simply doing `9 + 3` gives us 12 times the Wfuzz user agent appears.
 
 The last question of this room needs us to locate the HTTP hostname for the captured nmap scans and then report it in defanged format. Here's what I did:
 
-![[task6q5.png]]
+![[tsharkfeatures_task6q5.png]]
 
 From the first command, I ran TShark on the `user-agents.pcap` file and told it to filter and report the HTTP user agents (and sort them so it's easier to read). However, while this gives me a good view of the captured user agents, it does *not* show me a hostname or IP address associated with the agent.
 

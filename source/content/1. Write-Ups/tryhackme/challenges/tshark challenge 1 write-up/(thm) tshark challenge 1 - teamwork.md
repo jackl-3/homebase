@@ -1,7 +1,7 @@
 
 For this challenge, we're told that we'll be investigating some captured traffic as part of SOC team (cool). To do this, after connecting to VM ourselves or using the Attackbox (what I used for this challenge), we need to navigate our terminal to `~/Desktop/exercise-files` on the remote machine:
 
-![[a.png]]
+![[cdtofiles.png]]
 
 The folder contains one `.pcap` file that we'll be working with for this challenge room. Now, because we're also told that we'll need to investigate domains using [VirusTotal](https://www.virustotal.com/gui/home/upload), we'll need to keep a browser tab of that opened for later.
 
@@ -23,7 +23,7 @@ d) `nl` - show the results as a numbered list
 
 Truthfully, one could probably just use `tshark -r teamwork.pcap -T fields -e http.host -E header=y` and arrive at the same answer but, without the extra modifiers to remove duplicates and clear empty space, the answer would most likely be very cluttered and messy to read. Thankfully, with the command above, we get this:
 
-![[1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/1.png]]
+![[tsharkteamworkcommand1.png]]
 
 We can immediately from a glance what our suspicious domain is (defanged, of course): `hxxp[://]www[.]paypal[.]com4uswebappsresetaccountrecovery[.]timeseaways[.]com/`. (Definitely a legit web address, no problem there 🙃)
 
@@ -31,7 +31,7 @@ Now that we have the sus IP domain address, we are then asked to determine when 
 
 On VirusTotal, we have to select the URL option on the homepage and then paste in our malicious domain. Once done, we can switch to the "Details" tab to get a little more info on this submitted domain:
 
-![[1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/2.png]]
+![[vtotalsubtime.png]]
 
 Highlighted in the screenshot is the date when this domain was first submitted to VirusTotal as a suspicious address. In other words, this report occurred at essentially 10:52 pm UTC on April 17th, 2017. (over 9 years ago!)
 
@@ -43,17 +43,17 @@ This one is a little bit tricky. In order to locate this one, we actually need t
 
 On the initial VirusTotal page we got after putting in the fake PayPal domain, we need to click on that address:
 
-![[1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/4.1.png]]
+![[clickfornextvtotal.png]]
 
 Doing so directs us to a new page that looks similar to the previous one (as it still shows the bogus PayPal address). But, this time, we are shown new information regarding the relations this domain has. Navigating to the "Details" tab again shows usd this as one can see that tab is populated with more details than the Details tab from the page before 
 
 Even though we are given new info, it still doesn't give us the IP address *of the domain itself*. Rather, we are given IPs of sibling domains. For this, one would need to repeat the previous step once more and select the domain associated with fake PayPal one:
 
-![[1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/4.2.png]]
+![[followagainforvtotaldomain.png]]
 
 And then once again head over to the Details tab for `timeseaways.com`. Once there, the first category we're shown is "Passive DNS Replication" which records associated IP address for the domain at different dates:
 
-![[4.3.png]]
+![[dnsreplicationreport.png]]
 
 But which one is it? It could be any one of these, right?
 
@@ -71,11 +71,11 @@ To determine if my hypothesis was correct that HTTP traffic had been captured, I
 
 This command is telling TShark to look at packets that contain the IP address of `184.154.127.226` (regardless of the direction) and then filter those packets further by only showing the ones that have any mention/associating with ".com":
 
-![[1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/5.1.png]]
+![[tsharkteamworkcommand2.png]]
 
 Perfect! We can see a pretty good list of captured stuff relating to an HTTP page (a few pages, in fact). Because we're limited to the terminal and thus don't have the same navigational features that Wireshark offers, we can't "follow" the HTTP traffic to look inside some of the files like `suspecious.php`, or `visit.php`. What we can do, however, is export the contents of the captured HTTP packets so we can further investigate them:
 
-![[5.2.png]]
+![[tsharkteamworkcommand3.png]]
 
 This command is basically telling TShark to export anything related to HTTP traffic to the desktop folder `teamwork-extraction`. 
 
@@ -83,7 +83,7 @@ In order to view the exported files, we'd need to navigate to the new folder wit
 
 With these files now available to view, it was time for me to check if an email address had been used and subsequently captured within all this information. There were quite a few options with all them being the files ending in `.php` but the singular file that caught my attention was `login.php`. Obviously, this was intended to be used as the login page of the suspicious website so let's `cat` the file and see what it says:
 
-![[5.3.png]]
+![[tsharkteamworkcmdoutput.png]]
 
 NICE! So, while the output is a jumbled, we can see that someone did use their login creds on this page! They used the email address of `johnny5alive[at]gmail[.]com` with their password being `johnny5alive` (not a good password 😑).
 
