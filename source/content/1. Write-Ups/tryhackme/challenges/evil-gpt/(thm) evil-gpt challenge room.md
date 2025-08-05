@@ -7,7 +7,6 @@ Once connected, I'm given a brief welcome message and then asked to give a comma
 
 ![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png]]
 
-
 Haha we got admin access (sudo su = operating as root)! But, first, let's make sure that we *are* actually root.
 
 ![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
@@ -16,10 +15,11 @@ Nice. We are root.
 
 Now that we're admin (without even needing to authenticate with a password), let's check to what's in the directory. By default, we're in the non-privileged user's home directory and not the *actual* home directory for root. In order to accomplish that, let's ask the AI to navigate and/or show us the files in `/root`.
 
+![[3.png]]
 
  There's the flag file! Now I just need to ask the AI to show us what's in the `flag.txt` file.
 
-![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
+![[4.png]]
 
 BOOM! We have our flag!
 
