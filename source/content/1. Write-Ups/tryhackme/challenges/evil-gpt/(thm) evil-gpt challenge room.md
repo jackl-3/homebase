@@ -5,21 +5,21 @@ When the AttackBox has launched and loaded the desktop for us (and after we've g
 
 Once connected, I'm given a brief welcome message and then asked to give a command request. Since I'm tasked with investigating and/or shutting down the AI, I wanted to try to see if we can get admin access right off the bat.
 
-![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png]]
+![[initalroot.png]]
 
 Haha we got admin access (sudo su = operating as root)! But, first, let's make sure that we *are* actually root.
 
-![[source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png]]
+![[rootusercheck.png]]
 
 Nice. We are root.
 
 Now that we're admin (without even needing to authenticate with a password), let's check to what's in the directory. By default, we're in the non-privileged user's home directory and not the *actual* home directory for root. In order to accomplish that, let's ask the AI to navigate and/or show us the files in `/root`.
 
-![[3.png]]
+![[showfilesinroot.png]]
 
  There's the flag file! Now I just need to ask the AI to show us what's in the `flag.txt` file.
 
-![[4.png]]
+![[viewflag.png]]
 
 BOOM! We have our flag!
 
