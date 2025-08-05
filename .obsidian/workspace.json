@@ -11,12 +11,14 @@
             "id": "08d82d11fcc354f9",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png"
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "2"
+              "icon": "lucide-file",
+              "title": "(thm) evil-gpt challenge room"
             }
           }
         ]
@@ -169,13 +171,15 @@
   },
   "active": "08d82d11fcc354f9",
   "lastOpenFiles": [
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png",
+    "1.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/1.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/4.png",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/3.png",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png",
     "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
     "README.md",
     "source/CODE_OF_CONDUCT.md",
