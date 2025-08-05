@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+                "file": "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "(thm) evil-gpt challenge room"
+              "title": "(thm) evil-gpt 2 challenge room"
             }
           }
         ]
@@ -171,14 +171,17 @@
   },
   "active": "08d82d11fcc354f9",
   "lastOpenFiles": [
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/3.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/(thm) tshark challenge 1 - teamwork.md",
+    "source/content/1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/1.png",
+    "source/content/1. Write-Ups/tryhackme/challenges/tshark challenge 1 write-up/2.png",
     "1.png",
     "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/1.png",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/2.png",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/4.png",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/3.png",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt/1.png",
-    "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "source/content/1. Write-Ups/tryhackme/challenges/evil-gpt2",
     "source/content/1. Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
     "README.md",
