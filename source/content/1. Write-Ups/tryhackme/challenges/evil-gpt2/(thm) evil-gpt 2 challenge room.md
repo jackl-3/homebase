@@ -1,7 +1,4 @@
 
----
-
-
 Alright, time to work with a new AI!
 
 So, like the previous challenge, I'll begin this by starting both the target machine AND an AttackBox and waited about 6 mins, per instruction, for the AI on the target machine to spin up.
