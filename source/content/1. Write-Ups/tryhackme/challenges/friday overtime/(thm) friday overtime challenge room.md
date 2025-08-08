@@ -21,7 +21,7 @@ Once finished, the next thing to do is to, within a terminal, navigate to the fo
 
 Now here I momentarily thought that it was that SHA256 hash that was needed before I realized that was not the right one 😂. Rather, the SHA1 hash that I need is `9d1ecbbe8637fed0d89fca1af35ea821277ad2e8`.
 
-So, armed with the correct hash, the next step was to plug that hash of `pRsm.dll` into [VirusTotal](www.virustotal.com) and see what it reports:
+So, armed with the correct hash, the next step was to plug that hash of `pRsm.dll` into [VirusTotal](https://www.virustotal.com/) and see what it reports:
 
 ![[vtotal1.png]]
 
