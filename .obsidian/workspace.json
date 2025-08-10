@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "source/content/+ Write-Ups/tryhackme/challenges/tshark - directories/(thm) tshark challenge 2 - directories.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -171,6 +171,8 @@
   },
   "active": "08d82d11fcc354f9",
   "lastOpenFiles": [
+    "source/content/+++ Miscellaneous/index.md",
+    "source/content/+ Write-Ups/tryhackme/challenges/tshark - teamwork/(thm) tshark challenge 1 - teamwork.md",
     "source/content/+ Write-Ups/tryhackme/challenges/tshark - directories/(thm) tshark challenge 2 - directories.md",
     "source/content/++ Projects/iPod Classic 5th Gen/Modding an iPod Classic 5th gen.md",
     "source/content/+ Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
@@ -180,7 +182,6 @@
     "source/docs/configuration.md",
     "source/docs/advanced/architecture.md",
     "source/content/index.md",
-    "source/content/+++ Miscellaneous/index.md",
     "source/docs/tags/component.md",
     "source/docs/tags/plugin.md",
     "README.md",
@@ -189,7 +190,6 @@
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "Untitled",
-    "source/content/+ Write-Ups/tryhackme/challenges/tshark - teamwork/(thm) tshark challenge 1 - teamwork.md",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_aiassistantscreen.png",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flagrules.png",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flaganswer.png",

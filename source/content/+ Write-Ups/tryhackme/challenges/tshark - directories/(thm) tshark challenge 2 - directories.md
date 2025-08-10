@@ -1,4 +1,6 @@
 
+[Challenge Room](https://tryhackme.com/room/tsharkchallengestwo)
+
 Once the machine has started and a connection to interact with it has been established, the first step is to change directory into  `~/Dowloads/excercise-files`.
 
 Now that I'm in it, my first task is to find the malicious address and provide it in a defanged manner. To accomplish this, I construct my TShark command as follows:
