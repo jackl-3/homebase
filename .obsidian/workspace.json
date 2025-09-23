@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/content/index.md",
+                "file": "source/content/++ Projects/iPod Classic 5th Gen/Giving new life to a 5th gen iPod Classic.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Giving new life to a 5th gen iPod Classic"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 388.5
   },
   "right": {
     "id": "46c7900b7d611674",
@@ -160,6 +160,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -171,12 +172,22 @@
   },
   "active": "08d82d11fcc354f9",
   "lastOpenFiles": [
-    "source/content/+++ Miscellaneous/index.md",
+    "source/content/++ Projects/iPod Classic 5th Gen/completedipodclassic.jpg",
+    "source/content/++ Projects/iPod Classic 5th Gen/Giving new life to a 5th gen iPod Classic.md",
+    "source/content/++ Projects/iPod Classic 5th Gen/iflashquad.png",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodparts.png",
+    "source/content/++ Projects/iPod Classic 5th Gen/batteryandfaceplate.png",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodfrontplate.png",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodbatteryreplacement.png",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodinternalassemblywithiflashadapter.jpg",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodcompletereassemble.jpg",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipodnewfaceplateassemble.jpg",
+    "source/content/++ Projects/iPod Classic 5th Gen/ipoddisplaytonewfaceplate.jpg",
     "source/content/index.md",
+    "source/content/+++ Miscellaneous/index.md",
     "README.md",
     "source/content/+ Write-Ups/tryhackme/challenges/tshark - directories/(thm) tshark challenge 2 - directories.md",
     "source/content/+ Write-Ups/tryhackme/challenges/tshark - teamwork/(thm) tshark challenge 1 - teamwork.md",
-    "source/content/++ Projects/iPod Classic 5th Gen/Modding an iPod Classic 5th gen.md",
     "source/content/+ Write-Ups/tryhackme/challenges/friday overtime/(thm) friday overtime challenge room.md",
     "source/content/2 - Projects/Note1.md",
     "source/content/++ Projects/iPod Classic 5th Gen",
@@ -190,16 +201,6 @@
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/(thm) evil-gpt 2 challenge room.md",
     "Untitled",
-    "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_aiassistantscreen.png",
-    "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flagrules.png",
-    "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2/evilgpt2_flaganswer.png",
-    "source/content/5.2.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task4q4.4.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task5q1.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task5q2.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q1&2.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q3.png",
-    "source/content/+ Write-Ups/tryhackme/tshark/2 - cli wireshark features/tsharkfeatures_task6q4.png",
     "source/content/+ Write-Ups/tryhackme/tshark/1 - the basics/(thm) tshark - the basics.md",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt/(thm) evil-gpt challenge room.md",
     "source/content/+ Write-Ups/tryhackme/challenges/evil-gpt2",
